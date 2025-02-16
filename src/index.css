@@ -22,6 +22,12 @@ body,
   height: 100%;
 }
 
+ul,
+li,
+ol {
+  list-style: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -203,5 +209,240 @@ body,
   .footer__bottom__div2 {
     display: flex;
     gap: 25px;
+  }
+}
+
+/* header-2 */
+
+.header__ul {
+  display: flex;
+  gap: 34px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  .header__a {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.33px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  .header__hr {
+  }
+}
+
+/* Shop */
+
+.Shop__img {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+/* Kardlar */
+
+.grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.kard__1 {
+  width: 393px;
+  height: 404px;
+  top: 394px;
+  left: 120px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 15px;
+  transition: all 0.3s ease;
+  background-color: #f6f6f6;
+}
+
+.kard__1:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.kard__2 {
+  width: 393px;
+  height: 404px;
+  top: 394px;
+  left: 120px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 15px;
+  transition: all 0.3s ease;
+  background-color: #f6f6f6;
+}
+
+.kard__2:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.kard__3 {
+  width: 393px;
+  height: 404px;
+  top: 394px;
+  left: 120px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 15px;
+  transition: all 0.3s ease;
+  background-color: #f6f6f6;
+}
+
+.kard__3:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.kard__4 {
+  width: 393px;
+  height: 404px;
+  top: 394px;
+  left: 120px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 15px;
+  transition: all 0.3s ease;
+  background-color: #f6f6f6;
+}
+
+.kard__4:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.kard__5 {
+  width: 393px;
+  height: 404px;
+  top: 394px;
+  left: 120px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 15px;
+  transition: all 0.3s ease;
+  background-color: #f6f6f6;
+}
+
+.kard__5:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.kard__6 {
+  width: 393px;
+  height: 404px;
+  top: 394px;
+  left: 120px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 15px;
+  transition: all 0.3s ease;
+  background-color: #f6f6f6;
+}
+
+.kard__6:hover {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.kard__p1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  width: 358px;
+  height: 78px;
+}
+
+.kard__p2 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  width: 346px;
+  height: 66px;
+}
+
+.kard__bottom {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+/* group-33 */
+
+.group-33 {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  justify-content: space-between;
+  background-image: url(./Group-33-img.svg);
+  background-repeat: no-repeat;
+  width: 1050px;
+  height: 100px;
+  top: 1228px;
+  left: 211px;
+  .group-33__text1 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    width: 404px;
+    height: 52px;
+    top: 1252px;
+    left: 240px;
+    padding-left: 29px;
+  }
+  .group-33__btn {
+    width: 149px;
+    height: 50px;
+    top: 1253px;
+    left: 1041px;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-right: 30px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    gap: 10px;
+    margin-right: 71px;
+    cursor: pointer;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+    letter-spacing: 0%;
+    background-color: #f78b3b;
+    color: #ffffff;
+  }
+  .group-33__btn:hover {
+    background-color: #ffffff;
+    color: black;
   }
 }
