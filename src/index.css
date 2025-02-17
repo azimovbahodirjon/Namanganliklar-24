@@ -446,3 +446,156 @@ ol {
     color: black;
   }
 }
+
+/* В мире */
+
+.мире {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
+}
+
+.Dunyo {
+  display: flex;
+}
+
+.dunyo__left {
+  margin-right: 10px;
+}
+
+.dunyo__blog1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 797px;
+  height: 205px;
+  top: 1651px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.dunyo__blog2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 797px;
+  height: 205px;
+  top: 1651px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.dunyo__blog3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  width: 797px;
+  height: 205px;
+  top: 1651px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.dunyo__blog4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 797px;
+  height: 205px;
+  top: 1651px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.dunyo__list1__p1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.dunyo__img {
+  padding-right: 15px;
+  padding-left: 17px;
+}
+
+.dunyo__left__btn {
+  width: 796px;
+  height: 53px;
+  top: 2303px;
+  left: 120px;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-right: 343px;
+  padding-bottom: 17px;
+  padding-left: 343px;
+  background-color: #eaeaea;
+  margin-bottom: 100px;
+  border: none;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.96px;
+  letter-spacing: 0%;
+  color: #000000;
+  cursor: pointer;
+}
+
+.dunyo__left__btn:hover {
+  background-color: #f78b3b;
+  color: #ffffff;
+}
+
+.asosiy {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-top: 20px;
+  padding-left: 17px;
+}
+
+.dunyo-right__blog1 {
+  width: 393px;
+  height: 502px;
+  top: 1436px;
+  left: 927px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.asosiy__text-black {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-top: 20px;
+  padding-left: 17px;
+}
+
+.asosiy__text-data {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.41px;
+  letter-spacing: 0%;
+  color: #5e5f61;
+  padding-top: 8px;
+  padding-left: 17px;
+  padding-bottom: 20px;
+}

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>
@@ -14,44 +16,44 @@ function Home() {
             </a>
           </li>
           <li>
-            <a className="header__a" href="/Contact">
+            <Link className="header__a" to="/Contact">
               Экономика
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/Article">
+            <Link className="header__a" to="/Article">
               Политика
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/">
+            <Link className="header__a" to="/">
               Общество
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/">
+            <Link className="header__a" to="/">
               Технологии
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/">
+            <Link className="header__a" to="/">
               Спорт
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/">
+            <Link className="header__a" to="/">
               Культура
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/">
+            <Link className="header__a" to="/">
               Происшествия
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="header__a" href="/">
+            <Link className="header__a" to="/">
               Наука
-            </a>
+            </Link>
           </li>
         </ul>
         <hr className="header__hr" />
@@ -153,81 +155,135 @@ function Home() {
         </div>
         {/* В мире */}
         <p className="мире">В мире</p>
-        <div className="dunyo__left">
-          <div className="dunyo__blog1">
-            <img src="./dunyo__img1.svg" alt="" />
-            <div className="dunyo__blog1__list1">
-              <p className="dunyo__list1__p1">
-                Китайский Чунцин запустил чартерный рейс для студентов до
-                Британии
-              </p>
-              <p className="dunyo__list1__p1">
-                Чартерный рейс с 244 китайскими студентами вылетел из города
-                центрального подчинения Чунцина на юго-западе Китая в британский
-                Манчестер...
-              </p>
-              <div className="kard__bottom">
-                <img className="kard__icon" src="./kard-4__icon.svg" alt="" />
-                <p className="kard__bottom_text">Digger.ru 14:25</p>
+        <div className="Dunyo">
+          <div className="dunyo__left">
+            <div className="dunyo__blog1">
+              <img
+                className="dunyo__img"
+                src="./dunyo__img1.svg"
+                alt=""
+                width={210}
+                height={165}
+              />
+              <div className="dunyo__blog1__list1">
+                <p className="dunyo__list1__p1">
+                  Китайский Чунцин запустил чартерный рейс для студентов до
+                  Британии
+                </p>
+                <p className="dunyo__list1__p2">
+                  Чартерный рейс с 244 китайскими студентами вылетел из города
+                  центрального подчинения Чунцина на юго-западе Китая в
+                  британский Манчестер...
+                </p>
+                <div className="kard__bottom">
+                  <img className="kard__icon" src="./kard-4__icon.svg" alt="" />
+                  <p className="kard__bottom_text">Digger.ru 14:25</p>
+                </div>
               </div>
             </div>
+            <div className="dunyo__blog2">
+              <img
+                className="dunyo__img"
+                src="./dunyo__img2.svg"
+                alt=""
+                width={210}
+                height={165}
+              />
+              <div className="dunyo__blog1__list1">
+                <p className="dunyo__list1__p1">
+                  В Германии выпустят ограниченную партию плюшевых мишек в
+                  образе Меркель
+                </p>
+                <p className="dunyo__list1__p2">
+                  БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
+                  производству плюшевых игрушек в городе Кобург (федеральная
+                  земля Бавария) изготовила уникального...
+                </p>
+                <div className="kard__bottom">
+                  <img className="kard__icon" src="./kard-3__icon.svg" alt="" />
+                  <p className="kard__bottom_text">Digger.ru 14:25</p>
+                </div>
+              </div>
+            </div>
+            <div className="dunyo__blog3">
+              <img
+                className="dunyo__img"
+                src="./dunyo__img3.svg"
+                alt=""
+                width={210}
+                height={165}
+              />
+              <div className="dunyo__blog1__list1">
+                <p className="dunyo__list1__p1">
+                  Акции КНР утратили доверие инвесторов. Что делать с бумагами
+                  прямо сейчас
+                </p>
+                <p className="dunyo__list1__p2">
+                  За последние месяцы инвесторы в китайский рынок пережили
+                  настоящее потрясение — из-за ужесточения регулирования
+                  технологического сектора и критики некоторых...
+                </p>
+                <div className="kard__bottom">
+                  <img className="kard__icon" src="./kard-1__icon.svg" alt="" />
+                  <p className="kard__bottom_text">РБК Инвестиции 09:35</p>
+                </div>
+              </div>
+            </div>
+            <div className="dunyo__blog3">
+              <img
+                className="dunyo__img"
+                src="./dunyo__img4.svg"
+                alt=""
+                width={210}
+                height={165}
+              />
+              <div className="dunyo__blog1__list1">
+                <p className="dunyo__list1__p1">
+                  Китай раскритиковал заключенный Австралией, США и
+                  Великобританией антикитайский союз AUKUS
+                </p>
+                <p className="dunyo__list1__p2">
+                  Не только Франция, которая лишилась многомиллиардного
+                  контракта с Австралий, осталась недовольна созданием
+                  трехстороннего оборонного альянса AUKUS, пишет Anna-News.info
+                </p>
+                <div className="kard__bottom">
+                  <img className="kard__icon" src="./kard-5__icon.svg" alt="" />
+                  <p className="kard__bottom_text">РБК Инвестиции 09:35</p>
+                </div>
+              </div>
+            </div>
+            <button className="dunyo__left__btn">Показать ещё </button>
           </div>
-          <div className="dunyo__blog2">
-            <img src="./dunyo__img2.svg" alt="" />
-            <div className="dunyo__blog1__list1">
-              <p className="dunyo__list1__p1">
-                В Германии выпустят ограниченную партию плюшевых мишек в образе
-                Меркель
+          <div className="dunyo__right">
+            <div className="dunyo-right__blog1">
+              <p className="asosiy">Главное</p>
+              <p className="asosiy__text-black">
+                В Фергане создадут узбекско-пакистанский университет
               </p>
-              <p className="dunyo__list1__p1">
-                БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству
-                плюшевых игрушек в городе Кобург (федеральная земля Бавария)
-                изготовила уникального...
+              <p className="asosiy__text-data">Sputnik Узбекистан 14:09</p>
+              <hr className="asosiy__hrr" />
+              <p className="asosiy__text-black">
+                Узбекистан утвердил соглашение о содействии занятости в странах
+                СНГ
               </p>
-              <div className="kard__bottom">
-                <img className="kard__icon" src="./kard-3__icon.svg" alt="" />
-                <p className="kard__bottom_text">Digger.ru 14:25</p>
-              </div>
+              <p className="asosiy__text-data">ИА Красная Весна 10:19</p>
+              <hr className="asosiy__hrr" />
+              <p className="asosiy__text-black">
+                В Узбекистане увеличиваются очереди за автомобилями UzAuto
+              </p>
+              <p className="asosiy__text-data">
+                Северная газета (Армянск) 13:50
+              </p>
+              <hr className="asosiy__hrr" />
+              <p className="asosiy__text-black">
+                Минтуризма опровергло приостановку выплат за шаги
+              </p>
+              <p className="asosiy__text-data">Sputnik Узбекистан 14:32</p>
             </div>
-          </div>
-          <div className="dunyo__blog3">
-            <img src="./dunyo__img3.svg" alt="" />
-            <div className="dunyo__blog1__list1">
-              <p className="dunyo__list1__p1">
-                Акции КНР утратили доверие инвесторов. Что делать с бумагами
-                прямо сейчас
-              </p>
-              <p className="dunyo__list1__p1">
-                За последние месяцы инвесторы в китайский рынок пережили
-                настоящее потрясение — из-за ужесточения регулирования
-                технологического сектора и критики некоторых...
-              </p>
-              <div className="kard__bottom">
-                <img className="kard__icon" src="./kard-1__icon.svg" alt="" />
-                <p className="kard__bottom_text">РБК Инвестиции 09:35</p>
-              </div>
-            </div>
-          </div>
-          <div className="dunyo__blog3">
-            <img src="./dunyo__img4.svg" alt="" />
-            <div className="dunyo__blog1__list1">
-              <p className="dunyo__list1__p1">
-                Китай раскритиковал заключенный Австралией, США и
-                Великобританией антикитайский союз AUKUS
-              </p>
-              <p className="dunyo__list1__p1">
-                Не только Франция, которая лишилась многомиллиардного контракта
-                с Австралий, осталась недовольна созданием трехстороннего
-                оборонного альянса AUKUS, пишет Anna-News.info
-              </p>
-              <div className="kard__bottom">
-                <img className="kard__icon" src="./kard-5__icon.svg" alt="" />
-                <p className="kard__bottom_text">РБК Инвестиции 09:35</p>
-              </div>
-            </div>
+            <img className="chegirma" src="./chegirma.svg" alt="" />
           </div>
         </div>
-        <div className="dunyo__right"></div>
       </div>
     </>
   );
