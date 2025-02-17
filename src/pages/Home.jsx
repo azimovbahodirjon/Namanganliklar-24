@@ -11,9 +11,9 @@ function Home() {
             </a>
           </li>
           <li>
-            <a className="header__a" href="./List">
+            <Link className="header__a" to="./List">
               Интересное
-            </a>
+            </Link>
           </li>
           <li>
             <Link className="header__a" to="/Contact">

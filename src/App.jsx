@@ -3,7 +3,7 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/Article";
 import Contact from "./pages/Contact";
-import { NavLink } from "react-router-dom";
+import List from "./pages/List";
 
 function App() {
   const routes = createBrowserRouter([
@@ -18,6 +18,10 @@ function App() {
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/List",
+          element: <List />,
         },
         {
           path: "/Contact",
