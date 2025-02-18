@@ -11,7 +11,7 @@ function List() {
             </a>
           </li>
           <li>
-            <Link className="header__a" to="./List">
+            <Link className="header__a" to="/List">
               Интересное
             </Link>
           </li>

@@ -29,6 +29,10 @@ ol {
   list-style: none;
 }
 
+input:focus {
+  border: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -749,4 +753,334 @@ ol {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 17px;
+}
+
+/* Article */
+
+.article-icon-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.article-main {
+  display: flex;
+  margin-top: 30px;
+}
+
+.article-left__p1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  padding-top: 30px;
+}
+
+.article-tesla {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.article-left__p2 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.article-left__p3 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.article-left__p4 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.article-left__p5 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.article-left__p6 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.article-left__p7 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-bottom: 50px;
+}
+
+/* qiziqishlarm */
+
+.article-qiziqishlarm {
+  display: flex;
+}
+
+.qiziqishlarim-list1 {
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.qiziqishlarim-list2 {
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.qiziqishlarim-list3 {
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.qiziqishlarm {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.qiziqishlarm__p1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.qiziqishlarm__p2 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: #4a4b4c;
+}
+
+.qiziqishlarim__div {
+  display: flex;
+  gap: 10px;
+  margin-top: 23px;
+}
+
+/* contact */
+
+.contact__main {
+  display: flex;
+}
+
+.ism__input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.text__input {
+  margin-bottom: 20px;
+}
+
+.pochta__input {
+  margin-bottom: 10px;
+}
+
+.contact-left__p1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.ism__input {
+  width: 343px;
+  height: 55px;
+  top: 284px;
+  left: 120px;
+  border-radius: 10px;
+  border-width: 1px;
+  border: 1px solid #00000033;
+}
+
+.nomer__input {
+  width: 343px;
+  height: 55px;
+  top: 284px;
+  left: 473px;
+  border-radius: 10px;
+  border-width: 1px;
+  border: 1px solid #00000033;
+}
+
+.pochta__input {
+  width: 696px;
+  height: 55px;
+  top: 349px;
+  left: 120px;
+  border-radius: 10px;
+  border-width: 1px;
+  border: 1px solid #00000033;
+}
+
+.text__input {
+  width: 696px;
+  height: 180px;
+  top: 414px;
+  left: 120px;
+  border-radius: 10px;
+  border-width: 1px;
+  border: 1px solid #00000033;
+}
+
+.contact-main__right {
+  padding-top: 65px;
+  margin-left: -80px;
+}
+
+.contact-right {
+  width: 494px;
+  height: 310px;
+  top: 284px;
+  left: 826px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  margin-left: -50px;
+}
+
+.pochta__text {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  letter-spacing: 0%;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.pochta {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.96px;
+  letter-spacing: 0%;
+  padding-left: 25px;
+  padding-top: 7px;
+}
+
+.nomer__text {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  letter-spacing: 0%;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.nomer {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.96px;
+  letter-spacing: 0%;
+  padding-top: 7px;
+  padding-left: 25px;
+}
+
+.manzil__text {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  letter-spacing: 0%;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.manzil {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.96px;
+  letter-spacing: 0%;
+  padding-top: 7px;
+  padding-left: 25px;
+}
+
+.contact__btn {
+  width: 145px;
+  height: 53px;
+  top: 614px;
+  left: 671px;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-right: 30px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  background-color: #7297ef;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.96px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-left: 600px;
+  margin-bottom: 100px;
 }
