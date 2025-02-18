@@ -609,3 +609,144 @@ ol {
 .yangi-uylar {
   margin-top: 40px;
 }
+
+/* qiziq */
+
+.Интересное {
+  padding-top: 50px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  letter-spacing: 0%;
+}
+
+.qiziq {
+  display: flex;
+  margin-top: 20px;
+}
+
+.qiziq__left {
+  margin-right: 10px;
+}
+
+.qiziq__left-list1 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list2 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list3 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list4 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list5 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list6 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list7 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq__left-list8 {
+  display: flex;
+  width: 797px;
+  height: 205px;
+  top: 442px;
+  left: 120px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.qiziq-file1-div {
+  display: flex;
+  gap: 10px;
+  margin-top: 17px;
+}
+
+.qiziq-file1__text1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.qiziq-file1__text2 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: #4a4b4c;
+  margin-top: 10px;
+}
+
+.qiziq__img {
+  margin-left: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 17px;
+}
